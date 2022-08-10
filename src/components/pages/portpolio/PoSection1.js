@@ -133,7 +133,7 @@ export const PoSection1 = ({
 }) => {
   const [page, setPage] = useState("0");
 
-  let nowDB = popolDb[`${page}`];
+  const nowDB = popolDb[`${page}`];
 
   const params = {
     breakpoints: {
