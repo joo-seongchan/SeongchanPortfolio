@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { popolDb } from "./popolDb";
 
 const Section = styled.section``;
@@ -132,11 +132,8 @@ export const PoSection1 = ({
   section5top,
 }) => {
   const [page, setPage] = useState("0");
-  const [nowDB, setNowDb] = useState(popolDb[1]);
-  useEffect(() => {
-    const now = popolDb[`${page}`];
-    setNowDb(now);
-  });
+
+  const nowDB = popolDb[`${page}`];
 
   const params = {
     breakpoints: {
