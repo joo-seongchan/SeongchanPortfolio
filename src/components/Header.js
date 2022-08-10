@@ -80,13 +80,13 @@ export const Header = () => {
             <Link to="profile">프로필</Link>
           </Menu>
           <Menu>
-            <Link to="/">포트폴리오</Link>
+            <Link to="/portpolio">포트폴리오</Link>
           </Menu>
           <Menu>
-            <Link to="/">토이프로젝트</Link>
+            <Link to="/toy">토이프로젝트</Link>
           </Menu>
           <Menu>
-            <Link to="/">소통하는 개발자</Link>
+            <Link to="/communication">소통하는 개발자</Link>
           </Menu>
         </MenuWrap>
         <Button

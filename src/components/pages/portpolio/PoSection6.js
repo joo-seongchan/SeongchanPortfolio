@@ -16,7 +16,7 @@ const Con = styled.div`
   height: 300px;
   background-color: gray;
   border-radius: 50%;
-  background: url(img/home/profilebg2.png) no-repeat center/cover;
+  background: url(img/home/profilebg.png) no-repeat center/cover;
   overflow: hidden;
   transition: 0.5s;
   &:nth-child(2) {
@@ -54,13 +54,13 @@ const Cover2 = styled.div`
   font-weight: 600;
 `;
 
-export const ProSection3 = () => {
+export const PoSection6 = () => {
   return (
     <Section>
       <ConWrap>
         <Con>
-          <Link to="/portpolio">
-            <Cover1>포 트 폴 리 오</Cover1>
+          <Link to="/profile">
+            <Cover1>프 로 필</Cover1>
             <Cover2>바 로 가 기</Cover2>
           </Link>
         </Con>

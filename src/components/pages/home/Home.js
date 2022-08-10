@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { PageTitle } from "../../PageTitle";
+import { ScrollTop } from "../../ScrollTop";
 import { Logobox } from "./Logobox";
 import { Logobox1 } from "./Logobox1";
 import { Logobox2 } from "./Logobox2";
@@ -14,6 +16,8 @@ const Container = styled.div`
 export const Home = () => {
   return (
     <Container>
+      <PageTitle title={"Home"} />
+      <ScrollTop />
       <Menubox num="0" />
       <Logobox />
       <Logobox1 />

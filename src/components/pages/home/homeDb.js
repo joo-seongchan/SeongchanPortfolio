@@ -18,13 +18,13 @@ export const menuDb = [
     title: "토이프로젝트",
     img: "img/home/profilebg3.png",
     delay: "1s",
-    link: "/",
+    link: "toy",
   },
   {
     id: 3,
     title: "소통 하는 개발자 ?",
     img: "img/home/profilebg4.png",
     delay: "1.5s",
-    link: "/",
+    link: "communication",
   },
 ];
