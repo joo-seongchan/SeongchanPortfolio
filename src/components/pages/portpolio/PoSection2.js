@@ -105,7 +105,7 @@ const Button = styled.div`
 const RightCon = styled.div`
   width: 50%;
   height: 800px;
-  background: url(img/pp/ppvipsmain.png) no-repeat center/cover;
+  background: url(img/PP/ppvipsmain.png) no-repeat center/cover;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;

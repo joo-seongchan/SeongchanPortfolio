@@ -214,25 +214,25 @@ export const PoSection1 = ({
             <Swiper modules={[Navigation]} navigation {...params}>
               <SwiperSlide>
                 <SlideBox onClick={() => setPage("0")}>
-                  <SlideImg src="img/pp/ppslide1.png" alt="이미지" />
+                  <SlideImg src="img/PP/ppslide1.png" alt="이미지" />
                   <Name>VIPS</Name>
                 </SlideBox>
               </SwiperSlide>
               <SwiperSlide>
                 <SlideBox onClick={() => setPage("1")}>
-                  <SlideImg src="img/pp/ppslide2.png" alt="이미지" />
+                  <SlideImg src="img/PP/ppslide2.png" alt="이미지" />
                   <Name>J MOVIES</Name>
                 </SlideBox>
               </SwiperSlide>
               <SwiperSlide>
                 <SlideBox onClick={() => setPage("2")}>
-                  <SlideImg src="img/pp/ppslide3.png" alt="이미지" />
+                  <SlideImg src="img/PP/ppslide3.png" alt="이미지" />
                   <Name>서울식물원</Name>
                 </SlideBox>
               </SwiperSlide>
               <SwiperSlide>
                 <SlideBox onClick={() => setPage("3")}>
-                  <SlideImg src="img/pp/ppslide4.png" alt="이미지" />
+                  <SlideImg src="img/PP/ppslide4.png" alt="이미지" />
                   <Name>JooMovie</Name>
                 </SlideBox>
               </SwiperSlide>
